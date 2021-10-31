@@ -10,7 +10,11 @@ expression:
           if __name__ == '__main__'
 
 
+Também: 
+Aprenderemos com este exemplo a dar coommit pelo terminal desta IDE.
 
 
 Thanks God!
+
+
 

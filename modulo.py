@@ -1,3 +1,5 @@
+# Este arquivo (modulo.py) é importado lá no arquivo app.py
+
 def soma(x:float, y:float):
     return x + y
 
