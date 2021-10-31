@@ -4,7 +4,9 @@ def soma(x:float, y:float):
 
 
 
-# imprimos alguns resultados de soma: 
-print(soma(5, 30))
-print(soma(-2.5, -3.5))
+# imprimimos alguns resultados de soma
+
+if __name__ == '__main__':
+    print(soma(5, 30))
+    print(soma(-2.5, -3.5))
 
