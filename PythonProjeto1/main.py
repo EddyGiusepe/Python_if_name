@@ -8,8 +8,8 @@ O seguinte link é para poder realizar o "git push" de uma maneira forçada, já
 https://www.atlassian.com/br/git/tutorials/syncing/git-push#:~:text=O%20comando%20git%20push%20%C3%A9,com%20membros%20da%20equipe%20remota.
 '''
 
-
-from pegar_cotacao import pegar_cotacao_atual
+# Aqui importamos o arquivo "pegar_cotacao" a qual contem a função "pegar_cotacao_atual".
+from pegar_cotacao import pegar_cotacao_atual  
 
 with open("precos.txt", "r") as arquivo:
     lista_precos = arquivo.read().split("\n")
